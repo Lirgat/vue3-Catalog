@@ -20,7 +20,7 @@ export default {
   components: {
     NavHeader,
     myDialog,
-    menuMain
+    menuMain,
   }
 }
 </script>
