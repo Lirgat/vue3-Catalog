@@ -12,4 +12,4 @@ export default {
     menuCatalog
 }
 
-createApp(App).mount('#app')
+createApp(App).mount('#app') 
