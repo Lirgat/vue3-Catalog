@@ -7,19 +7,17 @@
   <div class="app">
     <NavHeader></NavHeader>
     <menuMain></menuMain>
-    <myDialog></myDialog>
+    
   </div>
 </template>
 
 <script>
 import NavHeader from './components/NavHeader.vue'
-import myDialog  from './components/myDialog.vue'
 import menuMain from './components/menuMain.vue'
 export default {
   name: 'App',
   components: {
     NavHeader,
-    myDialog,
     menuMain,
   }
 }
@@ -33,5 +31,14 @@ export default {
   box-sizing: border-box;
   font-family: Neucha;
   font-weight: 400;
+}
+.app {
+  z-index: -100;
+}
+.blueLine {
+  width: 100%;
+  min-height: 39px;
+  background-color: #243139;
+  margin-top: 120px;
 }
 </style>

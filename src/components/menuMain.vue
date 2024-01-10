@@ -6,6 +6,7 @@
             </div>
             <div class="catalog">
                 <menuCatalog></menuCatalog>
+                <div class="blueLine"></div>
             </div>
         </main>
     </div>
