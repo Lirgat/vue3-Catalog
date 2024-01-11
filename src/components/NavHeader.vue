@@ -26,8 +26,8 @@
         </div>
       </div>
     </div>
-    <div class="background" :class="{'backgroundCart': isShow}"></div>
-    <myDialog  class="myDialogHide" :class="{ 'cartShow': isShow }"></myDialog>
+    <div @click="OpenCart" class="background" :class="{'backgroundCart': isShow}"></div>
+    <myDialog  class="myDialogHide" :class="{ 'cartShow': isShow }" @openCart = "OpenCart"></myDialog>
   </template>
   
   <script>
@@ -57,7 +57,7 @@
     background-color: #3C4B61;
     top: 0;
     visibility: hidden;
-    transition: 0.5s;
+    transition: 0.1s step-end;
 }
 .backgroundCart {
   visibility: visible;

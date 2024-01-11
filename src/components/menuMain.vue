@@ -16,9 +16,6 @@ import menuCatalog from './menuCatalog.vue'
 export default {
     name: 'menuMain',
     components: { menuCatalog },
-    data () {
-
-    }
 }
 </script>
 <style scoped>
