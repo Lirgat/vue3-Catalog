@@ -50,6 +50,9 @@ export default {
     border-radius: 10px;
     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
 }
+.cart__backToBuyBtn:hover {
+    border: 3px solid #000000;
+}
 .cart__orderBtn {
     padding: 19px 26px 19px 26px;
     font-size: 18px;

@@ -36,9 +36,11 @@ export default {
   z-index: -100;
 }
 .blueLine {
+  position: relative;
   width: 100%;
   min-height: 39px;
   background-color: #243139;
   margin-top: 120px;
+  bottom: 0;
 }
 </style>
